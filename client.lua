@@ -1,4 +1,4 @@
-function DrawText(text, position)
+function DrawText(text)
   SendNUIMessage({
     type = 'show',
     text = text
