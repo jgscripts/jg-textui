@@ -11,4 +11,6 @@ ui_page 'web/index.html'
 
 files {'web/*'}
 
+escrow_ignore {'*/**'}
+
 lua54 'yes'
