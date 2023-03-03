@@ -7,8 +7,12 @@
     if (!data) return false;
 
     if (data.type === "show") {
+      // If the string contains a key in square brackets (like [E]), then style it differently!
+      let str = data.text.replaceAll(/\[(.*?)\]/g, "<kbd>$1</kbd>");
+      // let str = data.text;
+
       textUI.style.left = "20px";
-      textUI.innerHTML = data.text;
+      textUI.innerHTML = str;
     } else if (data.type === "hide") {
       textUI.style.left = "-100%";
     }

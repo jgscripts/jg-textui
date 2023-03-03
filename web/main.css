@@ -13,12 +13,26 @@ body {
 .text-ui {
   background: #212529;
   border: 1px solid #42484e;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 8px 10px;
+  border-radius: 7px;
   color: white;
   position: absolute;
   left: -100%;
   top: 50%;
   transform: translateY(-50%);
   transition: 0.5s ease-in-out;
+  user-select: none;
+}
+
+.text-ui kbd {
+  padding: 1px 8px;
+  background: #ccc;
+  color: #212529;
+  font-weight: bold;
+  border-radius: 5px;
+  border-bottom: 3px solid #777;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  font-size: 17px;
 }
