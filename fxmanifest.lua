@@ -1,16 +1,16 @@
-fx_version 'cerulean'
-game 'gta5'
+fx_version "cerulean"
+game "gta5"
 
-description 'Simple text UI library'
-version '1.0'
-author 'JG Scripts'
+description "Simple text UI library"
+version "1.0"
+author "JG Scripts"
 
-client_scripts {'client.lua'}
+client_script "client.lua"
 
-ui_page 'web/index.html'
+ui_page "web/index.html"
 
-files {'web/*'}
+files {"web/*"}
 
-escrow_ignore {'*/**'}
+escrow_ignore {"**/*"}
 
-lua54 'yes'
+lua54 "yes"
